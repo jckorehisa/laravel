@@ -1,4 +1,5 @@
 Publicado, adicionado pasta .docker/app
+arquivo .env da pasta .docker/app estava no .gitignore por esse motivo não era commitado e gerava o erro.
 
 <hr>
 

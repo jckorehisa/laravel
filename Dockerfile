@@ -23,7 +23,5 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 # COPY . /var/www
 RUN ln -s public html
-
-
 EXPOSE 9000
 ENTRYPOINT ["php-fpm"]
