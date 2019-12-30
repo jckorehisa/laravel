@@ -23,6 +23,9 @@ services:
     container_name: nginx
     restart: always
     tty: true
+    environment:
+      - HOST_APP=app
+      - HOST_PORT=9000
     ports:
       - "8000:80"
     volumes:
